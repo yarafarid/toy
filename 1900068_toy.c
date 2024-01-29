@@ -1,8 +1,5 @@
 /*
  * toy.c
- *
- *  Created on: Jan 18, 2024
- *      Author: Reemoo
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -179,11 +176,9 @@ int toy_dec(const short* s, const short* u, const short* v)
 
 int main() {
 
-		// why it prints ERROR   -46 ERROR - 39 ??
 	//toy_test();
 	//return 0;
 
-	// reem
     short A[TK_K * TK_K * TK_N], t[TK_K * TK_N], s[TK_K * TK_N];
 
     toy_gen(A, t, s);
@@ -213,7 +208,7 @@ int main() {
 	if (plain != plain2)
 		printf("ERROR\n");
 	else
-		printf("OK\n");// why it prints ERROR   -46 ERROR - 39 ?
+		printf("OK\n");
 	//toy_test();
 */
 	//return 0;
